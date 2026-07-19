@@ -24,7 +24,7 @@ const searchText = ref('')
 const activeSectionId = ref('all')
 const selectedEngineId = ref(searchEngines[0].id)
 const commandOpen = ref(false)
-const siteNotice = '近期将通过 Nuxt 重构本站前后端，敬请期待'
+const siteNotice = '欢迎访问T00ls.cc安全导航站'
 
 const sections = computed(() => navigationSections)
 
