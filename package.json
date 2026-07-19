@@ -1,0 +1,17 @@
+{
+  "name": "daohang-vue3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.25.0",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.1.5",
+    "vue": "^3.5.40"
+  }
+}
