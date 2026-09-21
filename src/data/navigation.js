@@ -3,21 +3,25 @@ export const searchEngines = [
     id: 'bing',
     label: 'Bing',
     action: 'https://www.bing.com/search?q=',
+    domain: 'bing.com',
   },
   {
     id: 'google',
     label: 'Google',
     action: 'https://www.google.com/search?q=',
+    domain: 'google.com',
   },
   {
     id: 'github',
     label: 'GitHub',
     action: 'https://github.com/search?q=',
+    domain: 'github.com',
   },
   {
     id: 'fofa',
     label: 'FOFA',
     action: 'https://fofa.info/result?qbase64=',
+    domain: 'fofa.info',
     encode: 'base64',
   },
 ]

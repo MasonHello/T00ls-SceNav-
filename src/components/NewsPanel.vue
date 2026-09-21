@@ -84,7 +84,7 @@ onMounted(() => {
         <Newspaper :size="18" />
         <h2>实时安全文章</h2>
       </div>
-      <button type="button" title="刷新" @click="loadFeed()">
+      <button type="button" title="刷新" aria-label="刷新文章列表" @click="loadFeed()">
         <RefreshCw :class="{ rotating: loadingIds.includes(activeFeed?.id) }" :size="18" />
       </button>
     </header>
@@ -95,6 +95,7 @@ onMounted(() => {
         :key="feed.id"
         type="button"
         :class="{ active: feed.id === activeId }"
+        :aria-pressed="feed.id === activeId"
         @click="activeId = feed.id"
       >
         {{ feed.name }}
